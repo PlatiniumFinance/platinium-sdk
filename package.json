@@ -1,16 +1,16 @@
 {
-  "name": "@platinium-libs/sdk",
+  "name": "@pancakeswap-libs/sdk",
   "license": "MIT",
-  "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of platiniumdefi.",
+  "version": "1.0.1",
+  "description": "🛠 An SDK for building applications on top of pancakeswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/PlatiniumFinance/platinium-sdk.git",
+  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
   "keywords": [
-    "platinium Defi",
+    "pancakeswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pantherswap-libs/panther-swap-core": "PlatiniumFinance/Platinium_Factory",
+    "@pancakeswap-libs/pancake-swap-core": "PlatiniumFinance/Platinium_Factory",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
