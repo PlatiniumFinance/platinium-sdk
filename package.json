@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/PlatiniumFinance/platinium-sdk",
+  "repository": "https://github.com/PlatiniumFinance/platinium-sdk.git",
   "keywords": [
     "platiniumfinance",
     "ethereum"
