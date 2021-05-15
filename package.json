@@ -1,22 +1,17 @@
 {
   "name": "@platinium-libs/platinium-sdk",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🛠 An SDK for building applications on top of pancakeswap.",
   "main": "dist/index.js",
-
   "publishConfig": {
     "access": "public"
   },
-
   "typings": "dist/index.d.ts",
-  
   "files": [
     "dist"
   ],
   "repository": "http://github.com/PlatiniumFinance/platinium-sdk.git",
-
-  
   "keywords": [
     "platiniumfinance",
     "ethereum"
@@ -31,7 +26,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@platinium-libs/platinium-factory" : "^1.0.1",
+    "@platinium-libs/platinium-factory": "^1.0.1",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
