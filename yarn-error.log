@@ -2,44 +2,45 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Users\Utilisateur\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js publish
 
 PATH: 
-  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Gow\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python38-32;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\Utilisateur\AppData\Roaming\npm;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Gow\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python38-32;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\Utilisateur\AppData\Local\GitHubDesktop\bin;C:\Users\Utilisateur\AppData\Roaming\npm
 
 Yarn version: 
   1.22.10
 
 Node version: 
-  14.16.0
+  16.1.0
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (C:\Users\Utilisateur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:136216:13)
-      at Interface.emit (events.js:315:20)
-      at Interface._ttyWrite (readline.js:875:16)
-      at ReadStream.onkeypress (readline.js:213:10)
-      at ReadStream.emit (events.js:315:20)
-      at emitKeys (internal/readline/utils.js:345:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1144:36)
-      at ReadStream.emit (events.js:315:20)
-      at addChunk (internal/streams/readable.js:309:12)
+  SyntaxError: C:\Users\Utilisateur\Documents\Github\platinium-sdk\platinium-sdk\package.json: Unexpected string in JSON at position 383
+      at JSON.parse (<anonymous>)
+      at C:\Users\Utilisateur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Utilisateur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Utilisateur\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
 
 npm manifest: 
   {
-    "name": "@pancakeswap-libs/sdk",
+    "name": "@platinium-libs/platinium-sdk",
     "license": "MIT",
     "version": "1.0.1",
     "description": "🛠 An SDK for building applications on top of pancakeswap.",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
+    
     "files": [
       "dist"
     ],
-    "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+    "repository": "http://github.com/PlatiniumFinance/platinium-sdk.git",
+    
+    "publishConfig": {
+      "access": "public"
+    }
+  
     "keywords": [
-      "pancakeswap",
+      "platiniumfinance",
       "ethereum"
     ],
     "module": "dist/sdk.esm.js",
@@ -52,7 +53,7 @@ npm manifest:
       "prepublishOnly": "tsdx build"
     },
     "dependencies": {
-      "@pancakeswap-libs/pancake-swap-core": "PlatiniumFinance/Platinium_Factory",
+      "@platinium-libs/platinium-factory" : "^1.0.1",
       "big.js": "^5.2.2",
       "decimal.js-light": "^2.5.0",
       "jsbi": "^3.1.1",
