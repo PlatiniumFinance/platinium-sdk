@@ -1204,10 +1204,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@platinium-libs/platinium-factory@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@platinium-libs/platinium-factory/-/platinium-factory-1.0.3.tgz#dcd9fe2a9671de97e4ee163ac14553f62e26ea5d"
-  integrity sha512-yYp9VV2cOkXa9jVxXWC/onaBiBbspozjzpS+Lv3rmSPWM2vkuVHCREcXMVHujbDYtCp/XixHU1QeY93/6G6Sgg==
+"@platinium-libs/platinium-factory@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@platinium-libs/platinium-factory/-/platinium-factory-1.0.4.tgz#6f2ca5afbdb310956a192dee79559a8e0302a31c"
+  integrity sha512-iPs9rauTqBLwEb0bBJS2rJKSCM9oTVHNvfPeoLGHds7QymKieGKff00+ye19hJyYl8cYNfIkBZa3rzwQpQdwDA==
 
 "@rollup/plugin-commonjs@^11.0.0":
   version "11.1.0"
